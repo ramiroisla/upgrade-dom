@@ -16,6 +16,6 @@ let atrElements = document.querySelectorAll("[data-function]");
 atrElements.forEach((element) => console.log(element));
 // 1.6 Usa querySelector para mostrar por consola el 3 personaje con el atributo
 // data-function="testMe".
-console.log("-------");
+
 let Element3 = document.querySelectorAll("[data-function]");
 console.log(Element3[2]);
